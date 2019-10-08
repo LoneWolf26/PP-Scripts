@@ -1,0 +1,175 @@
+# SOFTSUSY4.1.7 SLHA compliant output
+# B.C. Allanach, Comput. Phys. Commun. 143 (2002) 305-331, hep-ph/0104145
+Block SPINFO          # Program information
+     1    SOFTSUSY    # spectrum calculator
+     2    4.1.7       # version number
+Block MODSEL  # Select model
+     1    0   # nonUniversal
+Block SMINPUTS             # Standard Model inputs
+     1    1.27940000e+02   # alpha_em^(-1)(MZ) SM MSbar
+     2    1.16640000e-05   # G_Fermi
+     3    1.18400000e-01   # alpha_s(MZ)MSbar
+     4    9.11880000e+01   # MZ(pole)
+     5    4.18000000e+00   # mb(mb)
+     6    1.73400000e+02   # Mtop(pole)
+     7    1.77700000e+00   # Mtau(pole)
+Block MINPAR               # SUSY breaking input parameters
+     3    2.46750000e+01   # tanb, DRbar, Feynman gauge
+Block EXTPAR               # non-universal SUSY breaking parameters
+      0    1.00000000e+03  # MX scale
+      1   -1.52240000e+02  # M_1(MX)
+      2    3.15420000e+02  # M_2(MX)
+      3    1.00000000e+04  # M_3(MX)
+     11    1.00000000e+04  # At(MX)
+     12    1.00000000e+04  # Ab(MX)
+     13    1.00000000e+04  # Atau(MX)
+     23    9.19120000e+02  # mu(MX)
+     26    1.00000000e+04  # mA(pole)
+     25    2.46750000e+01  # tan beta(MX)
+     31    1.00000000e+04  # meL(MX)
+     32    1.00000000e+04  # mmuL(MX)
+     33    1.00000000e+04  # mtauL(MX)
+     34    1.00000000e+04  # meR(MX)
+     35    1.00000000e+04  # mmuR(MX)
+     36    1.00000000e+04  # mtauR(MX)
+     41    1.00000000e+04  # mqL1(MX)
+     42    1.00000000e+04  # mqL2(MX)
+     43    1.00000000e+04  # mqL3(MX)
+     44    1.00000000e+04  # muR(MX)
+     45    1.00000000e+04  # mcR(MX)
+     46    1.00000000e+04  # mtR(MX)
+     47    1.00000000e+04  # mdR(MX)
+     48    1.00000000e+04  # msR(MX)
+     49    1.00000000e+04  # mbR(MX)
+# SOFTSUSY-specific non SLHA information:
+# mixing=0 Desired accuracy=1.00000000e-04 Achieved accuracy=6.60576364e-06
+# 3-loop RGE corrections are off. 2-loop Yukawa/g3 thresholds are off
+# 2-loop SUSY QCD computation of squark/gluino pole masses are off
+# Matching scale=1.73400000e+02
+Block MASS                      # Mass spectrum
+# PDG code     mass             particle
+        24     8.03609654e+01   # MW
+        25     1.31697278e+02   # h0
+        35     1.00000143e+04   # H0
+        36     9.99999972e+03   # A0
+        37     1.00007629e+04   # H+
+   1000021     9.77969723e+03   # ~g
+   1000022    -1.49376285e+02   # ~neutralino(1)
+   1000023     3.72018431e+02   # ~neutralino(2)
+   1000024     3.72187647e+02   # ~chargino(1)
+   1000025    -9.47934020e+02   # ~neutralino(3)
+   1000035     9.51519275e+02   # ~neutralino(4)
+   1000037     9.53088835e+02   # ~chargino(2)
+   1000001     9.62055457e+03   # ~d_L
+   1000002     9.62035488e+03   # ~u_L
+   1000003     9.62057645e+03   # ~s_L
+   1000004     9.62037677e+03   # ~c_L
+   1000005     9.68790593e+03   # ~b_1
+   1000006     9.80274266e+03   # ~t_1
+   1000011     1.00323363e+04   # ~e_L
+   1000012     1.00316798e+04   # ~nue_L
+   1000013     1.00324270e+04   # ~mu_L
+   1000014     1.00317705e+04   # ~numu_L
+   1000015     1.00486437e+04   # ~stau_1
+   1000016     1.00600316e+04   # ~nu_tau_L
+   2000001     9.59335051e+03   # ~d_R
+   2000002     9.61481636e+03   # ~u_R
+   2000003     9.59338942e+03   # ~s_R
+   2000004     9.61482150e+03   # ~c_R
+   2000005     9.84460063e+03   # ~b_2
+   2000006     9.99333580e+03   # ~t_2
+   2000011     9.99179258e+03   # ~e_R
+   2000013     9.99197499e+03   # ~mu_R
+   2000015     1.00608997e+04   # ~stau_2
+Block alpha                     # Effective Higgs mixing parameter
+          -4.15303791e-02       # alpha - evaluated at p^2=0
+Block nmix                  # neutralino mixing matrix Q=9.80311934e+03
+  1  1     9.98795137e-01   # N_{1,1}
+  1  2     6.14765520e-04   # N_{1,2}
+  1  3     4.87053952e-02   # N_{1,3}
+  1  4     5.97338383e-03   # N_{1,4}
+  2  1     3.87242980e-03   # N_{2,1}
+  2  2     9.94540881e-01   # N_{2,2}
+  2  3    -9.67384469e-02   # N_{2,3}
+  2  4     3.89244673e-02   # N_{2,4}
+  3  1    -3.86156576e-02   # N_{3,1}
+  3  2     4.10037819e-02   # N_{3,2}
+  3  3     7.04617178e-01   # N_{3,3}
+  3  4     7.07348679e-01   # N_{3,4}
+  4  1    -3.00351469e-02   # N_{4,1}
+  4  2     9.59518051e-02   # N_{4,2}
+  4  3     7.01273192e-01   # N_{4,3}
+  4  4    -7.05766995e-01   # N_{4,4}
+Block Umix                  # chargino U mixing matrix  at Q=9.80311934e+03
+  1  1     9.90627210e-01   # U_{1,1}
+  1  2    -1.36593307e-01   # U_{1,2}
+  2  1     1.36593307e-01   # U_{2,1}
+  2  2     9.90627210e-01   # U_{2,2}
+Block Vmix                  # chargino V mixing matrix  at Q=9.80311934e+03
+  1  1     9.98486407e-01   # V_{1,1}
+  1  2    -5.49990394e-02   # V_{1,2}
+  2  1     5.49990394e-02   # V_{2,1}
+  2  2     9.98486407e-01   # V_{2,2}
+Block stopmix               # stop mixing matrix at Q=9.80311934e+03
+  1  1     9.55740672e-01   # F_{11}
+  1  2    -2.94210413e-01   # F_{12}
+  2  1     2.94210413e-01   # F_{21}
+  2  2     9.55740672e-01   # F_{22}
+Block sbotmix               # sbottom mixing matrix at Q=9.80311934e+03
+  1  1     4.42189049e-03   # F_{11}
+  1  2     9.99990223e-01   # F_{12}
+  2  1     9.99990223e-01   # F_{21}
+  2  2    -4.42189049e-03   # F_{22}
+Block staumix               # stau mixing matrix at Q=9.80311934e+03
+  1  1     9.31903720e-01   # F_{11}
+  1  2     3.62705745e-01   # F_{12}
+  2  1    -3.62705745e-01   # F_{21}
+  2  2     9.31903720e-01   # F_{22}
+Block gauge Q= 9.80311934e+03  # SM gauge couplings
+     1     3.67555318e-01   # g'(Q)MSSM DRbar
+     2     6.38431301e-01   # g(Q)MSSM DRbar
+     3     9.59211025e-01   # g3(Q)MSSM DRbar
+Block yu Q= 9.80311934e+03  
+  3  3     8.09146236e-01   # Yt(Q)MSSM DRbar
+Block yd Q= 9.80311934e+03  
+  3  3     3.01818346e-01   # Yb(Q)MSSM DRbar
+Block ye Q= 9.80311934e+03  
+  3  3     2.48989272e-01   # Ytau(Q)MSSM DRbar
+Block hmix Q= 9.80311934e+03 # Higgs mixing parameters
+     1     9.19120000e+02    # mu(Q)MSSM DRbar
+     2     2.40718356e+01    # tan beta(Q)MSSM DRbar Feynman gauge
+     3     2.39458398e+02    # higgs vev(Q)MSSM DRbar Feynman gauge
+     4     9.97699589e+07    # mA^2(Q)MSSM DRbar
+Block msoft Q= 9.80311934e+03  # MSSM DRbar SUSY breaking parameters
+     1    -1.50315105e+02      # M_1(Q)
+     2     3.40577650e+02      # M_2(Q)
+     3     9.25412844e+03      # M_3(Q)
+    21     9.95178782e+07      # mH1^2(Q)
+    22     1.59642056e+06      # mH2^2(Q)
+    31     1.00134695e+04      # meL(Q)
+    32     1.00135600e+04      # mmuL(Q)
+    33     1.00495885e+04      # mtauL(Q)
+    34     9.97916759e+03      # meR(Q)
+    35     9.97934992e+03      # mmuR(Q)
+    36     1.00518572e+04      # mtauR(Q)
+    41     9.30521585e+03      # mqL1(Q)
+    42     9.30523842e+03      # mqL2(Q)
+    43     9.67339039e+03      # mqL3(Q)
+    44     9.31706366e+03      # muR(Q)
+    45     9.31706897e+03      # mcR(Q)
+    46     9.93448309e+03      # mtR(Q)
+    47     9.29298387e+03      # mdR(Q)
+    48     9.29302408e+03      # msR(Q)
+    49     9.41525573e+03      # mbR(Q)
+Block au Q= 9.80311934e+03  
+  1  1     2.08314708e+03      # Au(Q)MSSM DRbar
+  2  2     2.08314879e+03      # Ac(Q)MSSM DRbar
+  3  3     1.27592473e+04      # At(Q)MSSM DRbar
+Block ad Q= 9.80311934e+03  
+  1  1     1.54190761e+03      # Ad(Q)MSSM DRbar
+  2  2     1.54191079e+03      # As(Q)MSSM DRbar
+  3  3     1.18472685e+04      # Ab(Q)MSSM DRbar
+Block ae Q= 9.80311934e+03  
+  1  1     1.20041281e+02      # Ae(Q)MSSM DRbar
+  2  2     1.20041890e+02      # Amu(Q)MSSM DRbar
+  3  3     1.01750726e+04      # Atau(Q)MSSM DRbar

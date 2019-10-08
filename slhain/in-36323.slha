@@ -1,0 +1,38 @@
+BLOCK MODSEL                                  # Select model
+     1     0                                  # nonUniversal
+BLOCK SMINPUTS                                # Standard Model inputs
+     1     1.2794e+02                         # alpha_em^(-1)(MZ) SM MSbar
+     2     1.1664e-05                         # G_Fermi
+     3     1.1840e-01                         # alpha_s(MZ)MSbar
+     4     9.1188e+01                         # MZ(pole)
+     5     4.1800e+00                         # mb(mb)
+     6     1.7340e+02                         # Mtop(pole)
+     7     1.7770e+00                         # Mtau(pole)
+BLOCK MINPAR                                  # SUSY breaking input parameters
+     3    +3.4264e+01                         # @ tanb, DRbar, Feynman gauge
+BLOCK EXTPAR                                  # non-universal SUSY breaking parameters
+     0     1.0000e+03                         # MX scale
+     1    +1.0327e+02                         # @ M_1(MX)
+     2    +3.8467e+01                         # @ M_2(MX)
+    23    +5.3376e+02                         # @ mu(MX)
+    25    +3.4264e+01                         # @ tanB(MX)
+     3     1.0000e+04                         # M_3(MX)
+    11     1.0000e+04                         # At(MX)
+    12     1.0000e+04                         # Ab(MX)
+    13     1.0000e+04                         # Atau(MX)
+    26     1.0000e+04                         # mA(pole)
+    31     1.0000e+04                         # meL(MX)
+    32     1.0000e+04                         # mmuL(MX)
+    33     1.0000e+04                         # mtauL(MX)
+    34     1.0000e+04                         # meR(MX)
+    35     1.0000e+04                         # mmuR(MX)
+    36     1.0000e+04                         # mtauR(MX)
+    41     1.0000e+04                         # mqL1(MX)
+    42     1.0000e+04                         # mqL2(MX)
+    43     1.0000e+04                         # mqL3(MX)
+    44     1.0000e+04                         # muR(MX)
+    45     1.0000e+04                         # mcR(MX)
+    46     1.0000e+04                         # mtR(MX)
+    47     1.0000e+04                         # mdR(MX)
+    48     1.0000e+04                         # msR(MX)
+    49     1.0000e+04                         # mbR(MX)
